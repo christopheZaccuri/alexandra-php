@@ -15,7 +15,9 @@
         $randomNumber = rand(-5,5);
         if($file !== '.' && $file !== '..'){ ?>
             <div class="grid-item <?php echo $randomNumber > 0 ? 'grid-item--width2':''; ?>">
-                <?php echo '<img src="dist/img/'.$file.'" border="0" />'; ?>
+                <a data-fslightbox="gallery" href="<?php echo "dist/img/".$file; ?>">
+                    <?php echo '<img src="dist/img/'.$file.'" border="0" />'; ?>
+                </a>
             </div>
 
         <?php
@@ -30,7 +32,7 @@
       
 </body>
 </html>
-
+<script src="fslightbox.js"></script>
 <style>
     .grid-item { width: 200px; }
     .grid-item--width2 { width: 400px; }

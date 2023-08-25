@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "bin-wrapper": "^4.1.0",
+    "fslightbox": "^3.4.1",
+    "lightbox2": "^2.11.4",
     "masonry-layout": "^4.2.2",
     "minimatch": "^9.0.3"
   },
