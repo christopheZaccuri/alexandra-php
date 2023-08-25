@@ -1,0 +1,22 @@
+{
+  "name": "alexandra-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bin-wrapper": "^4.1.0",
+    "masonry-layout": "^4.2.2",
+    "minimatch": "^9.0.3"
+  },
+  "devDependencies": {
+    "compress-images": "^2.0.5",
+    "jimp": "^0.22.10",
+    "webpack-cli": "^5.1.4"
+  }
+}
