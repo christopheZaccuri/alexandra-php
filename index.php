@@ -34,9 +34,12 @@
 </html>
 <script src="fslightbox.js"></script>
 <style>
-    .grid-item { width: 200px; }
+    .grid-item { width: 200px; padding: 10px; }
     .grid-item--width2 { width: 400px; }
     img {
         width: 100%; height: auto;
+    }
+    .grid {
+    margin: 0 auto;
     }
 </style>

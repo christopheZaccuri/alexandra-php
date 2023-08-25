@@ -5,5 +5,8 @@ window.onload = function() {
     const msnry = new Masonry( elem, {
       // options
       itemSelector: '.grid-item',
+      stagger: 10,
+      columnWidth: 20,
+      fitWidth: true
     });
 }
