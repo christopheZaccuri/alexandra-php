@@ -1,13 +1,10 @@
 import Masonry from 'masonry-layout'
-const compress_images = require("compress-images");
 
-function MyFun() {
- console.log(compress_images)
-}
-document.addEventListener('DOMContentLoaded',function(){
+window.onload = function() {
+  console.log('maso')
     const elem = document.querySelector('.grid');
     const msnry = new Masonry( elem, {
       // options
       itemSelector: '.grid-item',
     });
-})
+}

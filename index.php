@@ -10,12 +10,12 @@
 <body>
     <div class="grid">
     <?php 
-    $handle = opendir(dirname(realpath(__FILE__)).'/img/');
+    $handle = opendir(dirname(realpath(__FILE__)).'/dist/img/');
     while($file = readdir($handle)){
         $randomNumber = rand(-5,5);
         if($file !== '.' && $file !== '..'){ ?>
             <div class="grid-item <?php echo $randomNumber > 0 ? 'grid-item--width2':''; ?>">
-                <?php echo '<img src="img/'.$file.'" border="0" />'; ?>
+                <?php echo '<img src="dist/img/'.$file.'" border="0" />'; ?>
             </div>
 
         <?php
